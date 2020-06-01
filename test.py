@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-import os, sys, timeit, progressbar
+import os, sys, timeit #,progressbar
 
 # Get command-line arguments
 (F, N), T = map(int, sys.argv[1:3]), float(sys.argv[3])
